@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Plomada Remodelaciones (marca ficticia de ejemplo): isotipo para el favicon -->
+  <rect width="64" height="64" rx="14" fill="#1d5a4c"/>
+  <path d="M32 6v12" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="20.5" r="2.5" fill="none" stroke="#fff" stroke-width="2.4"/>
+  <path d="M23 24h18v9L32 58l-9-25z" fill="#d9822b"/>
+  <path d="M32 24v34" stroke="#10302a" stroke-opacity=".25" stroke-width="1.6"/>
+</svg>

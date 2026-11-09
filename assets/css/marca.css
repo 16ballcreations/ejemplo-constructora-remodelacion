@@ -1,0 +1,33 @@
+/* Plomada Remodelaciones (marca ficticia de ejemplo): tokens de marca.
+   El verde pino es el color de la marca; el ocre, el acento de la plantilla (la esquina, las cifras,
+   los números); la madera y la arena salen de los interiores que muestra la página. */
+
+:root {
+  /* Marca */
+  --pino: #1d5a4c;           /* el color de la marca: logo, franja de contacto, íconos */
+  --pino-claro: #e2efea;
+  --profundo: #10302a;       /* titulares y precio */
+  --ocre: #d9822b;           /* el acento: la plomada del logo, cifras, números, esquinas */
+  --ocre-claro: #fbeedd;
+
+  /* Los interiores */
+  --madera: #5b3d27;         /* la franja del paquete */
+  --madera-oscura: #3d2918;
+  --beige: #cbbdb3;
+  --arena: #f5f0eb;          /* fondos claros */
+
+  --blanco: #ffffff;
+  --tinta: #13241f;          /* texto corrido */
+  --gris: #5a6763;           /* texto secundario, 6:1 sobre blanco */
+  --linea: #e4e8e6;
+
+  /* Tipografía */
+  --f-titulo: "Outfit", system-ui, sans-serif;
+  --f-texto: "Figtree", system-ui, sans-serif;
+
+  /* Medidas */
+  --ancho: 1200px;
+  --margen: clamp(16px, 4vw, 40px);
+  --radio: 4px;
+  --sombra: 0 18px 40px -24px rgb(16 48 42 / .35);
+}

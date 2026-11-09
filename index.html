@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plomada · Remodelación de apartamentos y casas (sitio de ejemplo)</title>
+  <meta name="description" content="Sitio de ejemplo de 16 Ball Creations para una constructora de remodelaciones. Plomada es una marca ficticia: diseño antes de la obra, cocinas, baños, pisos y acabados, con pagos por hitos claros.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#1d5a4c">
+  <link rel="icon" href="assets/img/marca/plomada.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="assets/img/web/portada-cocina.webp">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@500;600;700&display=swap">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="assets/css/marca.css">
+  <link rel="stylesheet" href="assets/css/sitio.css">
+</head>
+<body>
+
+  <!-- Íconos -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/><path fill="currentColor" d="M9.1 7.6c-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.2 5 4.4 2.5 1 3 .8 3.5.7.6 0 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4l-.5-.3-1.9-.9c-.3-.1-.5-.1-.7.1l-.9 1.1c-.2.2-.3.2-.6.1a7 7 0 0 1-3.5-3c-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.5L9.1 7.6z"/></symbol>
+      <symbol id="i-flecha" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+      <symbol id="i-correo" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="m3.5 6.5 8.5 7 8.5-7"/></symbol>
+      <symbol id="i-reloj" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M12 7v5l3 2"/></symbol>
+      <symbol id="i-mapa" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="m9 4-6 2.5v14L9 18l6 2.5 6-2.5V3.5L15 6 9 4zM9 4v14M15 6v14.5"/></symbol>
+      <symbol id="i-pisos" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="m12 3 9 4.5-9 4.5-9-4.5L12 3zM3 12l9 4.5 9-4.5M3 16.5 12 21l9-4.5"/></symbol>
+      <symbol id="i-rodillo" viewBox="0 0 24 24"><rect x="3" y="3" width="15" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M18 6h2.5v5H11v3"/><rect x="9.5" y="14" width="3" height="7" rx="1" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+      <symbol id="i-techo" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" d="M3 10h18M9 10v10M15 4v6"/></symbol>
+      <symbol id="i-cocina" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" d="M3 10h18M12 10v11M8 6.5h0M16 6.5h0"/><circle cx="8" cy="6.5" r="1" fill="currentColor"/><circle cx="16" cy="6.5" r="1" fill="currentColor"/></symbol>
+      <symbol id="i-bano" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M6 3h7v7H6zM4 10h15a0 0 0 0 1 0 0 7 7 0 0 1-7 7H10a6 6 0 0 1-6-6v-1zM9 17l-1 4h7l-1-4"/></symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 21v-7.5H16l.4-3H13.5V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.3H8v3h2.5V21h3z"/></symbol>
+      <symbol id="i-plomada" viewBox="0 0 36 70"><path d="M18 2v13" stroke="#1d5a4c" stroke-width="3" stroke-linecap="round"/><circle cx="18" cy="17.5" r="2.5" fill="none" stroke="#1d5a4c" stroke-width="2.4"/><path d="M9 21h18v9L18 66 9 30z" fill="#d9822b"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- Aviso: sitio de ejemplo -->
+  <p class="aviso-ejemplo">Sitio de ejemplo hecho por <a href="https://16ballcreations.com" target="_blank" rel="noopener">16 Ball Creations</a>. Plomada, sus personas, proyectos y datos de contacto son ficticios.</p>
+
+  <!-- Menú -->
+  <header class="menu">
+    <div class="envoltura">
+      <a class="menu-marca logo" href="#inicio" aria-label="Plomada Remodelaciones, inicio">
+        <svg aria-hidden="true"><use href="#i-plomada"/></svg>
+        <span><b>plomada</b><small>Remodelaciones</small></span>
+      </a>
+      <nav class="menu-enlaces" aria-label="Secciones">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#paquete">Paquete</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#opiniones">Opiniones</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="menu-tel" href="#contacto"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg>300 000 0000</a>
+      <button class="menu-abrir" type="button" aria-expanded="false" aria-controls="menu-movil">Menú <i aria-hidden="true"></i></button>
+    </div>
+  </header>
+
+  <nav class="menu-movil" id="menu-movil" aria-label="Secciones" hidden>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#paquete">Paquete</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#opiniones">Opiniones</a>
+    <a href="#contacto">Escríbenos</a>
+  </nav>
+
+  <main>
+
+    <!-- 1. Portada: tres espacios del apartamento Nogal, con su índice -->
+    <section class="portada" id="inicio">
+      <h1 class="oculto">Plomada: remodelación de apartamentos y casas</h1>
+      <div class="envoltura">
+        <div class="portada-marco">
+          <div class="portada-pista">
+            <article class="portada-lamina activa">
+              <img src="assets/img/web/portada-cocina.webp" alt="Cocina abierta con barra en piedra, muebles en madera oscura y salida al balcón, recién entregada" width="1080" height="790">
+              <div class="portada-texto">
+                <span class="etiqueta">Remodelación · Apartamento Nogal</span>
+                <h2>Cocina <em>abierta</em> con barra</h2>
+                <a class="enlace-flecha" href="proyectos/nogal/">Ver proyecto</a>
+              </div>
+            </article>
+            <article class="portada-lamina">
+              <img src="assets/img/web/portada-sala.webp" alt="Sala terminada con sofá gris, lámpara de papel y puerta al balcón" width="1080" height="790">
+              <div class="portada-texto">
+                <span class="etiqueta">Entrega · Apartamento Nogal</span>
+                <h2>Un hogar <em>listo</em> para estrenar</h2>
+                <a class="enlace-flecha" href="#cambio">Ver el diseño antes de la obra</a>
+              </div>
+            </article>
+            <article class="portada-lamina">
+              <img src="assets/img/web/portada-bano.webp" alt="Baño terminado con ducha en baldosa terracota, mueble en madera y lavamanos de sobreponer" width="1080" height="790">
+              <div class="portada-texto">
+                <span class="etiqueta">Paquete · 45 a 60 m²</span>
+                <h2>Baño <em>completamente</em> terminado</h2>
+                <a class="enlace-flecha" href="#paquete">Ver qué incluye</a>
+              </div>
+            </article>
+          </div>
+          <div class="portada-indice" role="group" aria-label="Proyectos de la portada">
+            <button type="button" class="activo" aria-label="Ver cocina abierta"><b>01</b> Cocina abierta</button>
+            <button type="button" aria-label="Ver hogar listo para estrenar"><b>02</b> Listo para estrenar</button>
+            <button type="button" aria-label="Ver baño terminado"><b>03</b> Baño terminado</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Nosotros: la fundadora y el porqué de Plomada -->
+    <section class="seccion nosotros" id="nosotros">
+      <div class="envoltura">
+        <div class="revela">
+          <span class="etiqueta">Nosotros</span>
+          <h2 class="titulo">Te entregaron media casa. <em>Nosotros la terminamos.</em></h2>
+          <p class="texto">Miles de viviendas nuevas se entregan sin acabados. Plomada nació en 2019 para que ese apartamento que tanto te costó por fin se sienta tuyo: con pisos, cocina, baño y luz, sin gastar de más.</p>
+          <p class="texto">La plomada es la pesa que cuelga de un hilo y marca la vertical: la herramienta más sencilla de la obra y la que nunca miente. Así trabajamos: derecho, con todo por escrito y sin sorpresas.</p>
+          <a class="boton" href="#paquete">Conoce el paquete</a>
+        </div>
+        <figure class="retrato revela">
+          <div class="retrato-foto">
+            <img src="assets/img/web/fundadora.webp" alt="La arquitecta y fundadora de Plomada sonríe en su estudio, junto a muestras de materiales" width="880" height="1100" loading="lazy">
+            <figcaption class="retrato-nombre">Valeria Quintero <small>Arquitecta y fundadora</small></figcaption>
+          </div>
+          <blockquote class="retrato-cita">
+            <span aria-hidden="true">&ldquo;</span>
+            <p>Una obra derecha empieza por un presupuesto derecho.</p>
+          </blockquote>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 3. Servicios -->
+    <section class="seccion servicios" id="servicios">
+      <div class="envoltura">
+        <div class="servicios-foto revela">
+          <img src="assets/img/web/taller.webp" alt="Un carpintero corta una pieza con la ingletadora en un apartamento en obra" width="720" height="900" loading="lazy">
+          <a class="servicios-play" href="#cambio" aria-label="Ver del diseño a la obra"><svg aria-hidden="true"><use href="#i-flecha"/></svg></a>
+        </div>
+        <div class="revela">
+          <span class="etiqueta">Servicios</span>
+          <h2 class="titulo">Un equipo. Un alcance. <em>Nos encargamos de todo.</em></h2>
+          <ol class="lista-servicios">
+            <li><b>Remodelación de apartamentos y casas</b><span>Si te entregaron el apartamento en obra gris o tu casa ya no da más.</span></li>
+            <li><b>Diseño y render antes de la obra</b><span>Ves la distribución, los colores, las maderas y los acabados antes de construir.</span></li>
+            <li><b>Cocinas, baños y closets</b><span>Muebles en madera a la medida, piedra, porcelanato y vidrio.</span></li>
+            <li><b>Pisos, estuco, pintura y techos en drywall</b><span>Los acabados que convierten la obra gris en hogar.</span></li>
+            <li><b>Ampliaciones y obra nueva</b><span>Un segundo piso, un estudio o una casa desde los cimientos.</span></li>
+            <li><b>Licencias y permisos</b><span>Te acompañamos en la curaduría y los trámites.</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Cifras -->
+    <section class="cifras" aria-label="Plomada en cifras">
+      <div class="envoltura">
+        <div class="cifra"><b data-cifra="4,9">4,9</b><span>Calificación<br>de clientes</span></div>
+        <div class="cifra"><b data-cifra="140">140</b><span>Obras<br>entregadas</span></div>
+        <div class="cifra"><b data-cifra="7">7</b><span>Años<br>remodelando</span></div>
+        <div class="cifra"><b data-cifra="5">5</b><span>Pasos, del diseño<br>a tu obra</span></div>
+      </div>
+    </section>
+
+    <!-- 5. Paquete -->
+    <section class="seccion paquete" id="paquete">
+      <div class="envoltura">
+        <div class="revela">
+          <span class="etiqueta">Paquete de remodelación</span>
+          <h2 class="titulo">Remodela tu apartamento <em>y aumenta su valor</em></h2>
+          <p class="texto">Un precio claro para apartamentos de 45 a 60 m², con lo que más transforma un espacio. Sin letra pequeña: lo que está escrito es lo que recibes.</p>
+          <p class="precio"><small>Desde</small><b>$38.000.000</b><span>COP</span></p>
+          <p class="precio-nota">Valor de referencia para apartamentos de 45 a 60 m². Te confirmamos el tuyo después de visitar tu vivienda.</p>
+          <a class="boton" href="#contacto">Quiero mi cotización</a>
+        </div>
+        <div class="incluye revela">
+          <h3>Qué incluye <small>45 a 60 m²</small></h3>
+          <ul>
+            <li><i><svg aria-hidden="true"><use href="#i-pisos"/></svg></i><div><b>Pisos</b><span>Porcelanato instalado en todo el apartamento</span></div></li>
+            <li><i><svg aria-hidden="true"><use href="#i-rodillo"/></svg></i><div><b>Estuco y pintura</b><span>Paredes y techos listos para habitar</span></div></li>
+            <li><i><svg aria-hidden="true"><use href="#i-techo"/></svg></i><div><b>Techo en drywall</b><span>Con luz indirecta en dos espacios</span></div></li>
+            <li><i><svg aria-hidden="true"><use href="#i-cocina"/></svg></i><div><b>Cocina integral de 3 metros</b><span>En L o con barra</span></div></li>
+            <li><i><svg aria-hidden="true"><use href="#i-bano"/></svg></i><div><b>Un baño</b><span>Completamente terminado</span></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Proceso y pagos -->
+    <section class="seccion proceso" id="proceso">
+      <div class="envoltura">
+        <div class="revela">
+          <span class="etiqueta">Cómo trabajamos</span>
+          <h2 class="titulo">Hitos claros, <em>no una bolsa sin fondo</em></h2>
+          <ol class="pasos">
+            <li>Visitamos tu vivienda</li>
+            <li>Te mostramos el diseño</li>
+            <li>Revisamos el presupuesto contigo</li>
+            <li>Firmamos el contrato por hitos</li>
+            <li>Empieza tu obra</li>
+          </ol>
+          <div class="hitos">
+            <h3>Así pagas</h3>
+            <div class="hitos-barra" aria-hidden="true"><span></span><span></span><span></span></div>
+            <div class="hitos-leyenda">
+              <div><b>40 %</b>Anticipo, con el diseño aprobado</div>
+              <div><b>40 %</b>Con la obra a mitad de camino</div>
+              <div><b>20 %</b>A la entrega, con el acta firmada</div>
+            </div>
+          </div>
+        </div>
+        <figure class="proceso-foto revela">
+          <img src="assets/img/web/asesoria.webp" alt="Una asesora de Plomada revisa los planos y el presupuesto con un cliente en la mesa de trabajo" width="900" height="900" loading="lazy">
+          <blockquote>Lo que está escrito es lo que recibes.<small>Revisamos el presupuesto contigo, partida por partida, antes de firmar.</small></blockquote>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 7. Del diseño a la obra -->
+    <section class="seccion cambio" id="cambio">
+      <div class="envoltura">
+        <div class="encabezado revela">
+          <div>
+            <span class="etiqueta">Del diseño a tu casa</span>
+            <h2 class="titulo">El dibujo <em>se volvió casa</em></h2>
+          </div>
+          <p class="texto">Antes de mover un ladrillo ves tu espacio terminado. Al final, lo comparas con lo que te entregamos.</p>
+        </div>
+        <div class="par-envoltura revela">
+          <div class="par">
+            <figure><img src="assets/img/web/diseno-sala.webp" alt="Dibujo de la sala con la barra de la cocina, los taburetes y el sofá" width="1080" height="618" loading="lazy"><figcaption>Diseño</figcaption></figure>
+            <figure><img src="assets/img/web/obra-sala.webp" alt="La misma sala ya construida, con la barra en piedra y el sofá gris" width="1080" height="618" loading="lazy"><figcaption>Obra entregada</figcaption></figure>
+          </div>
+          <span class="flecha" aria-hidden="true"><svg><use href="#i-flecha"/></svg></span>
+        </div>
+        <div class="cambio-pie">
+          <button type="button" aria-pressed="true" data-render="assets/img/web/diseno-sala.webp" data-obra="assets/img/web/obra-sala.webp" data-alt-render="Dibujo de la sala con la barra de la cocina, los taburetes y el sofá" data-alt-obra="La misma sala ya construida, con la barra en piedra y el sofá gris">Sala</button>
+          <button type="button" aria-pressed="false" data-render="assets/img/web/diseno-bano.webp" data-obra="assets/img/web/obra-bano.webp" data-alt-render="Dibujo del baño con el lavamanos de sobreponer, el mueble y la ducha" data-alt-obra="El mismo baño ya construido, con el lavamanos blanco, el mueble en madera y la ducha en baldosa terracota">Baño</button>
+          <p>Apartamento Nogal</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Proyectos -->
+    <section class="seccion proyectos" id="proyectos">
+      <div class="envoltura">
+        <div class="encabezado revela">
+          <div>
+            <span class="etiqueta">Proyectos</span>
+            <h2 class="titulo">Hogares que ya <em>estrenaron</em></h2>
+          </div>
+          <div class="filtros" role="group" aria-label="Filtrar proyectos">
+            <button type="button" aria-pressed="true" data-filtro="todos">Todos</button>
+            <button type="button" aria-pressed="false" data-filtro="remodelacion">Remodelación</button>
+            <button type="button" aria-pressed="false" data-filtro="carpinteria">Carpintería</button>
+            <button type="button" aria-pressed="false" data-filtro="render">Diseño y render</button>
+          </div>
+        </div>
+        <div class="rejilla">
+          <article class="tarjeta revela" data-tipo="remodelacion"><img src="assets/img/web/p-cocina.webp" alt="Cocina con barra en piedra gris, taburetes blancos y alacena en madera oscura" width="600" height="1000" loading="lazy"><div class="tarjeta-texto"><small>Remodelación</small><h3>Cocina con barra en piedra</h3><p>Apartamento Nogal</p></div><a class="tarjeta-enlace" href="proyectos/nogal/" aria-label="Ver el proyecto Apartamento Nogal"></a></article>
+          <article class="tarjeta revela" data-tipo="remodelacion"><img src="assets/img/web/p-bano.webp" alt="Baño con ducha en baldosa terracota, piso en piedra y mueble en madera" width="600" height="1000" loading="lazy"><div class="tarjeta-texto"><small>Remodelación</small><h3>Baño terminado</h3><p>Apartamento Nogal</p></div><a class="tarjeta-enlace" href="proyectos/nogal/" aria-label="Ver el proyecto Apartamento Nogal"></a></article>
+          <article class="tarjeta revela" data-tipo="carpinteria"><img src="assets/img/web/p-closet.webp" alt="Closet de piso a techo en madera clara con manijas negras" width="600" height="1000" loading="lazy"><div class="tarjeta-texto"><small>Carpintería</small><h3>Closet de piso a techo</h3><p>Apartamento Arrayán</p></div></article>
+          <article class="tarjeta revela" data-tipo="remodelacion"><img src="assets/img/web/p-entrega.webp" alt="Una pareja sentada en el piso de su apartamento nuevo, entre cajas de trasteo" width="600" height="1000" loading="lazy"><div class="tarjeta-texto"><small>Entrega</small><h3>El día de estrenar</h3><p>Apartamento Arrayán</p></div></article>
+          <article class="tarjeta revela" data-tipo="carpinteria"><img src="assets/img/web/p-mueble.webp" alt="Muro de la sala revestido en madera, con una planta en primer plano" width="600" height="1000" loading="lazy"><div class="tarjeta-texto"><small>Carpintería</small><h3>Muro en madera para la sala</h3><p>Casa Ceiba</p></div></article>
+          <article class="tarjeta revela" data-tipo="carpinteria"><img src="assets/img/web/p-puerta.webp" alt="Puerta corrediza en madera que se abre hacia el baño" width="600" height="1000" loading="lazy"><div class="tarjeta-texto"><small>Carpintería</small><h3>Puerta corrediza</h3><p>Casa Ceiba</p></div></article>
+          <article class="tarjeta revela" data-tipo="render"><img src="assets/img/web/p-casa.webp" alt="Render de una casa moderna con muro en piedra, ventanales y jardín" width="600" height="1000" loading="lazy"><div class="tarjeta-texto"><small>Render</small><h3>Casa de dos pisos</h3><p>Diseño arquitectónico</p></div></article>
+          <article class="tarjeta revela" data-tipo="render"><img src="assets/img/web/p-interior.webp" alt="Render de una sala en tonos arena con cortinas, sillón y lámpara de pie" width="600" height="1000" loading="lazy"><div class="tarjeta-texto"><small>Render</small><h3>Sala en tonos arena</h3><p>Diseño de interiores</p></div></article>
+        </div>
+        <p class="proyectos-pie"><a class="enlace-flecha" href="proyectos/nogal/">Recorre el apartamento Nogal</a></p>
+      </div>
+    </section>
+
+    <!-- 9. Opiniones -->
+    <section class="seccion opiniones" id="opiniones">
+      <div class="envoltura">
+        <div class="encabezado revela">
+          <div>
+            <span class="etiqueta">Opiniones</span>
+            <h2 class="titulo">Lo que dicen <em>nuestros clientes</em></h2>
+          </div>
+          <div class="nota-google">
+            <b>4,9</b>
+            <span><span class="estrellas" aria-label="5 de 5 estrellas">★★★★★</span><br>Opiniones de clientes</span>
+          </div>
+        </div>
+        <div class="testimonios">
+          <article class="testimonio revela">
+            <span class="testimonio-inicial" aria-hidden="true">A</span>
+            <h3>Andrea P.</h3>
+            <small>Remodelación completa</small>
+            <p>Nos mostraron el diseño antes de empezar y la obra quedó igual. Cada pago coincidió con lo que se había avanzado.</p>
+          </article>
+          <article class="testimonio revela">
+            <span class="testimonio-inicial" aria-hidden="true">J</span>
+            <h3>Julián M.</h3>
+            <small>Cocina y baño</small>
+            <p>Puntuales y ordenados. Al final de cada día dejaban el apartamento limpio y me contaban qué seguía.</p>
+          </article>
+          <article class="testimonio revela">
+            <span class="testimonio-inicial" aria-hidden="true">S</span>
+            <h3>Sofía R.</h3>
+            <small>Closets y carpintería</small>
+            <p>Me ayudaron a escoger maderas y acabados según mi presupuesto, sin empujarme a gastar de más.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. Contacto -->
+    <section class="seccion contacto" id="contacto">
+      <div class="envoltura">
+        <div class="revela">
+          <span class="etiqueta">Contacto</span>
+          <h2 class="titulo">Cuéntanos qué quieres <em>cambiar</em></h2>
+          <p class="texto">Escríbenos por WhatsApp y agenda tu asesoría. Te ayudamos a ver qué se puede hacer con tu espacio y tu presupuesto.</p>
+          <ul class="datos">
+            <li><svg aria-hidden="true"><use href="#i-whatsapp"/></svg><span>300 000 0000<small>WhatsApp y llamadas (número de ejemplo)</small></span></li>
+            <li><svg aria-hidden="true"><use href="#i-pin"/></svg><span>Sala de muestras<small>Dirección de ejemplo</small></span></li>
+            <li><svg aria-hidden="true"><use href="#i-reloj"/></svg><span>Lunes a sábado<small>8:00 a. m. a 5:00 p. m.</small></span></li>
+            <li><svg aria-hidden="true"><use href="#i-mapa"/></svg><span>Toda la ciudad<small>y los municipios cercanos</small></span></li>
+            <li><svg aria-hidden="true"><use href="#i-correo"/></svg><span>hola@plomada.example<small>Correo de ejemplo</small></span></li>
+          </ul>
+        </div>
+        <form class="formulario revela" novalidate>
+          <h3>Pide tu asesoría</h3>
+          <div class="campo campo--ancho">
+            <label for="nombre">Tu nombre</label>
+            <input id="nombre" name="nombre" autocomplete="name" required>
+          </div>
+          <div class="campo">
+            <label for="espacio">Qué quieres remodelar</label>
+            <select id="espacio" name="espacio">
+              <option>El apartamento completo (paquete)</option>
+              <option>La cocina</option>
+              <option>El baño</option>
+              <option>Pisos y acabados</option>
+              <option>Closets y carpintería</option>
+              <option>Un diseño con render</option>
+              <option>Otra cosa</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="metros">Metros cuadrados</label>
+            <input id="metros" name="metros" inputmode="numeric" placeholder="Ej.: 55">
+          </div>
+          <div class="campo campo--ancho">
+            <label for="zona">Barrio o municipio</label>
+            <input id="zona" name="zona" placeholder="Ej.: el barrio donde queda tu vivienda">
+          </div>
+          <div class="campo campo--ancho">
+            <label for="mensaje">Cuéntanos un poco más</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Me entregaron el apartamento en obra gris y quiero…"></textarea>
+          </div>
+          <button class="boton" type="submit"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg>Enviar por WhatsApp</button>
+          <p class="formulario-nota">Se abre WhatsApp con tu mensaje listo para elegir a quién enviarlo. En este sitio de ejemplo no hay un número real.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <div class="envoltura">
+      <div>
+        <a class="logo" href="#inicio" aria-label="Plomada Remodelaciones, inicio"><svg aria-hidden="true"><use href="#i-plomada"/></svg><span><b>plomada</b><small>Remodelaciones</small></span></a>
+        <p style="margin-top:16px">Remodelación de apartamentos y casas, desde 2019.</p>
+      </div>
+      <nav aria-label="Secciones">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#paquete">Paquete</a>
+      </nav>
+      <nav aria-label="Más secciones">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#opiniones">Opiniones</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div>
+        300 000 0000<br>
+        Sala de muestras<br>Dirección de ejemplo
+      </div>
+      <div class="pie-redes">
+        <a href="#inicio" aria-label="Instagram (ejemplo)"><svg aria-hidden="true"><use href="#i-instagram"/></svg></a>
+        <a href="#inicio" aria-label="Facebook (ejemplo)"><svg aria-hidden="true"><use href="#i-facebook"/></svg></a>
+      </div>
+    </div>
+    <div class="envoltura pie-firma">Plomada es una marca ficticia. Sitio de ejemplo hecho por <a href="https://16ballcreations.com" target="_blank" rel="noopener">16 Ball Creations</a> · Fotos de Unsplash.</div>
+  </footer>
+
+  <a class="flotante" href="https://wa.me/?text=Hola%2C%20Plomada.%20Quiero%20remodelar%20mi%20apartamento." target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg></a>
+
+  <script src="assets/js/sitio.js" defer></script>
+</body>
+</html>

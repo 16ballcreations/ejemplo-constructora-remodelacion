@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "plomada", "runtimeExecutable": "node", "runtimeArgs": ["herramientas/servir.mjs", "4341"], "port": 4341 }
+  ]
+}
