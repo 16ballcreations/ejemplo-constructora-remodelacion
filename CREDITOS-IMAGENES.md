@@ -15,7 +15,7 @@ son un dibujo de bordes hecho por ese script sobre la misma foto de la obra; no 
 
 | Clave | Archivos en `assets/img/web/` | Foto (Unsplash) | Autor |
 |---|---|---|---|
-| i14 | portada-cocina | https://unsplash.com/photos/modern-open-plan-living-room-and-kitchen-with-balcony-access-xdxCPupHXRo | Irena Oze (@iistyle) |
+| i14 | portada-cocina, og-plomada.jpg | https://unsplash.com/photos/modern-open-plan-living-room-and-kitchen-with-balcony-access-xdxCPupHXRo | Irena Oze (@iistyle) |
 | i04 | portada-sala | https://unsplash.com/photos/sunny-modern-apartment-living-room-with-balcony-and-kitchen-counter-eDKrWCFn8is | Irena Oze (@iistyle) |
 | i06 | portada-bano, p-bano | https://unsplash.com/photos/modern-bathroom-with-brown-tiled-shower-and-dark-wood-vanity-FJZKTQspZmQ | Irena Oze (@iistyle) |
 | i09 | obra-sala, diseno-sala | https://unsplash.com/photos/bright-modern-living-room-with-kitchen-bar-and-sofa-CQFZX-In0KI | Irena Oze (@iistyle) |
@@ -39,7 +39,7 @@ son un dibujo de bordes hecho por ese script sobre la misma foto de la obra; no 
 | y8 | nogal-obra | https://unsplash.com/photos/a-room-that-is-being-remodeled-with-red-walls-g9HoBPzFftU | Brett Jordan (@brett_jordan) |
 | x5 | nogal-clientes | https://unsplash.com/photos/couple-smiling-in-a-modern-kitchen-IUuvFQmAu4k | Vitaly Gariev (@silverkblack) |
 
-23 fotos de origen → 28 archivos WebP (1,3 MB en total). Licencia de todas: Unsplash License,
+23 fotos de origen → 28 archivos WebP (1,3 MB en total) y `og-plomada.jpg` (vista previa para redes, de la foto i14). Licencia de todas: Unsplash License,
 verificada el 9 de noviembre de 2026 en la página de cada foto.
 
 El logo y el isotipo (`assets/img/marca/`) son dibujos propios en SVG, hechos para este ejemplo.

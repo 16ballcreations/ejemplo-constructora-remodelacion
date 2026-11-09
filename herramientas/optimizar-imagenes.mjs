@@ -62,6 +62,8 @@ const fotos = [
   { de: 'ky1', a: 'nogal-llaves', w: 720, h: 900 },
   { de: 'y8', a: 'nogal-obra', w: 512, h: 640 },
   { de: 'x5', a: 'nogal-clientes', w: 720, h: 900 },
+  // Vista previa para redes (og:image): JPG porque no todas las redes leen WebP
+  { de: 'i14', a: 'og-plomada', w: 1200, h: 630, jpg: true },
 ];
 
 async function bajar(clave) {
@@ -104,6 +106,7 @@ async function boceto(archivo, f) {
 for (const f of fotos) {
   const archivo = await bajar(f.de);
   const img = f.boceto ? await boceto(archivo, f) : await recortar(archivo, f);
-  await img.webp({ quality: 76 }).toFile(destino + f.a + '.webp');
+  if (f.jpg) await img.jpeg({ quality: 80, mozjpeg: true }).toFile(destino + f.a + '.jpg');
+  else await img.webp({ quality: 76 }).toFile(destino + f.a + '.webp');
   console.log(f.a);
 }

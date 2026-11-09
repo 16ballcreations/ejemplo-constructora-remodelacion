@@ -1,5 +1,7 @@
 # Plomada Remodelaciones: sitio de ejemplo
 
+**En línea:** https://16ballcreations.github.io/ejemplo-constructora-remodelacion/
+
 **Sitio de ejemplo de 16 Ball Creations para constructoras de remodelación.** Sirve para enseñarle a
 cualquier prospecto del rubro (remodelación de apartamentos y casas, acabados de obra gris, cocinas,
 baños y carpintería) cómo se vería su web, sin mostrar el trabajo ni los datos de otro cliente.
